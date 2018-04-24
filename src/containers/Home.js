@@ -50,13 +50,11 @@ const styles = StyleSheet.create({
   },
   textboxWrapper: {
     marginBottom: 20,
-    paddingLeft: 20,
-    paddingRight: 20
+    width: '90%',
   },
   buttonWrapper: {
     marginTop: 160,
-    paddingLeft: 20,
-    paddingRight: 20
+    width: '60%',
   },
 });
 
