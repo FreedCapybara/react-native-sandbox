@@ -1,22 +1,21 @@
 import React from 'react';
-import { StyleSheet, View, TextInput, Image } from 'react-native';
+import { StyleSheet, View, TouchableHighlight, Text, Image } from 'react-native';
 
-class GeometricTextbox extends React.Component {
+class GeometricButton extends React.Component {
   render() {
     return (
       <View style={styles.flexRow}>
         <View style={styles.flexCol}>
-          <TextInput
-            style={styles.input}
-            onChangeText={this.props.onChangeText}
-            value={this.props.text}
-            secureTextEntry={this.props.secureTextEntry}
-            keyboardType={this.props.keyboardType} />
+          <TouchableHighlight
+            style={styles.button}
+            onPress={this.props.onPress}>
+            <Text>{this.props.title}</Text>
+          </TouchableHighlight>
 
           <View style={styles.flexRow}>
             <Image
               style={styles.leftShadow}
-              source={require('../../assets/images/left.png')} />
+              source={require('../../../assets/images/left.png')} />
 
             <View style={styles.bottomShadow} />
           </View>
@@ -24,7 +23,7 @@ class GeometricTextbox extends React.Component {
 
         <Image
           style={styles.rightShadow}
-          source={require('../../assets/images/right.png')} />
+          source={require('../../../assets/images/right.png')} />
       </View>
     );
   }
@@ -40,7 +39,7 @@ const styles = StyleSheet.create({
     width: '100%',
     flexShrink: 1
   },
-  input: {
+  button: {
     height: 45,
     backgroundColor: '#ffd7e7',
     paddingLeft: 15,
@@ -62,4 +61,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default GeometricTextbox;
+export default GeometricButton;

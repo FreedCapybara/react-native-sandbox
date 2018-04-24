@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { StyleSheet, View } from 'react-native';
 
-import GeometricTextbox from '../components/GeometricTextbox';
+import GeometricTextbox from '../components/holographic/GeometricTextbox';
+import GeometricButton from '../components/holographic/GeometricButton';
 
 class Home extends React.Component {
 
@@ -29,6 +30,12 @@ class Home extends React.Component {
             text={this.state.password}
             secureTextEntry={true} />
         </View>
+
+        <View style={styles.buttonWrapper}>
+          <GeometricButton
+            onPress={() => {}}
+            title={'Sign in'} />
+        </View>
       </View>
     );
   }
@@ -45,7 +52,12 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     paddingLeft: 20,
     paddingRight: 20
-  }
+  },
+  buttonWrapper: {
+    marginTop: 160,
+    paddingLeft: 20,
+    paddingRight: 20
+  },
 });
 
 const mapStateToProps = (state, props) => {
