@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
-    borderTopColor: '#ffbfcf',
+    borderTopColor: '#0c273e',
     backgroundColor: '#84ede7',
   },
   rightShadow: {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
-    borderBottomColor: '#ffbfcf',
+    borderBottomColor: '#0c273e',
     backgroundColor: '#3dc3c5',
   },
   bottomShadow: {

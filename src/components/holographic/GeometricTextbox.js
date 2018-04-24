@@ -42,12 +42,12 @@ const styles = StyleSheet.create({
     flexShrink: 1
   },
   inputWrapper: {
-    backgroundColor: '#f5a7b8',
+    backgroundColor: '#74b9f3',
   },
   input: {
     width: '100%',
     height: 45,
-    backgroundColor: '#ffd7e7',
+    backgroundColor: '#a5d6ff',
     paddingLeft: 15,
     paddingRight: 15,
     flexShrink: 1,
@@ -62,13 +62,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
-    borderTopColor: '#ffbfcf',
-    backgroundColor: '#f5a7b8',
+    borderTopColor: '#0c273e',
+    backgroundColor: '#74b9f3',
   },
   rightShadow: {
     width: 15,
     height: 28,
-    backgroundColor: '#f5a7b8',
+    backgroundColor: '#74b9f3',
   },
   bottomLeftShadow: {
     width: 0,
@@ -80,13 +80,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
-    borderBottomColor: '#ffbfcf',
-    backgroundColor: '#cf8b9a',
+    borderBottomColor: '#0c273e',
+    backgroundColor: '#285e8c',
   },
   bottomShadow: {
     width: '100%',
     height: 17,
-    backgroundColor: '#cf8b9a',
+    backgroundColor: '#285e8c',
     flexShrink: 1,
   },
   bottomRightShadow: {
@@ -99,8 +99,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent',
     borderLeftColor: 'transparent',
     borderRightColor: 'transparent',
-    borderBottomColor: '#cf8b9a',
-    backgroundColor: '#f5a7b8',
+    borderBottomColor: '#285e8c',
+    backgroundColor: '#74b9f3',
   },
 });
 
